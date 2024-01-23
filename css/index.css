@@ -1,0 +1,5 @@
+.myImg>img{
+    border: 2px solid rgb(204, 231, 46);
+    height: 400px;
+    width: 200px;
+}

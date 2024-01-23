@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    top: 0%;
+    
+    height: auto;
+    /* background-color: #1f1fda; */
+}
+.grid-item img{
+    height: 480px;
+    width: 656px;
+}
+.box{
+    border: 2px solid red;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+   </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid-item">
+          <div class="box">
+            <h1>Watch</h1>
+            <p>Next Level Adventure</p>
+            <a href="#">Learn more</a>
+            <a href="#">Buy</a>
+          </div>
+            <img src="../img/watch.jpg" alt="">
+        </div>
+        <div class="grid-item"><img src="../img/mac.jpg" alt=""></div>
+    </div>
+</body>
+</html>
